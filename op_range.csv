@@ -1,0 +1,8 @@
+﻿Operatinf Range,,,,,
+,Lower,Upper,Shutdown,,
+Hyd Pressure,30,40,44,,22
+Tempearature,50,80,88,,90
+Vibrations,4,6.5,7,,
+Oil Flow,12,14,15,,1
+Oil Level,20,90,20,,2
+Tool RPM,900,1000,Below 900,Above 1000,
