@@ -15,9 +15,9 @@ st.set_page_config(
 
 data = pd.read_csv('demonstrate_data.csv')
 
-health = jb.load('PredictiveAnalysis019/predict.pkl')
-prep = jb.load('PredictiveAnalysis019/prep.pkl')
-anomaly = jb.load('PredictiveAnalysis019/anomaly.pkl')
+health = jb.load('predict.pkl')
+prep = jb.load('prep.pkl')
+anomaly = jb.load('anomaly.pkl')
 
 features = ['Pressure (psi)',	'Temperature (°C)',	'Oil Flow (L/min)',	'Vibration (mm/s)','Oil Level (%)'	,'Tool RPM (rpm)' ,'Current (A)']
 health_ft = ['Temperature (°C)','Tool RPM (rpm)']
